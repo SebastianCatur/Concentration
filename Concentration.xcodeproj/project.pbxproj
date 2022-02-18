@@ -16,6 +16,8 @@
 		EC2BE7D927BF83C900418EC5 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2BE7D827BF83C900418EC5 /* ConcentrationTests.swift */; };
 		EC2BE7E327BF83CA00418EC5 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2BE7E227BF83CA00418EC5 /* ConcentrationUITests.swift */; };
 		EC2BE7E527BF83CA00418EC5 /* ConcentrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2BE7E427BF83CA00418EC5 /* ConcentrationUITestsLaunchTests.swift */; };
+		EC9618A027BFC4790040DB85 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96189F27BFC4790040DB85 /* Concentration.swift */; };
+		EC9618A227BFC5340040DB85 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9618A127BFC5340040DB85 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EC2BE7DE27BF83C900418EC5 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2BE7E227BF83CA00418EC5 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		EC2BE7E427BF83CA00418EC5 /* ConcentrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC96189F27BFC4790040DB85 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		EC9618A127BFC5340040DB85 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				EC2BE7C327BF83BF00418EC5 /* SceneDelegate.swift */,
 				EC2BE7C527BF83BF00418EC5 /* ViewController.swift */,
 				EC2BE7C727BF83BF00418EC5 /* Main.storyboard */,
+				EC96189F27BFC4790040DB85 /* Concentration.swift */,
+				EC9618A127BFC5340040DB85 /* Card.swift */,
 				EC2BE7CA27BF83C900418EC5 /* Assets.xcassets */,
 				EC2BE7CC27BF83C900418EC5 /* LaunchScreen.storyboard */,
 				EC2BE7CF27BF83C900418EC5 /* Info.plist */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2BE7C627BF83BF00418EC5 /* ViewController.swift in Sources */,
+				EC9618A027BFC4790040DB85 /* Concentration.swift in Sources */,
+				EC9618A227BFC5340040DB85 /* Card.swift in Sources */,
 				EC2BE7C227BF83BF00418EC5 /* AppDelegate.swift in Sources */,
 				EC2BE7C427BF83BF00418EC5 /* SceneDelegate.swift in Sources */,
 			);
