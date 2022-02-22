@@ -18,6 +18,7 @@ class Concentration {
     var carsEmojiTheme = Theme(backgroundColor: .gray, emojiList: ["🚗", "🚕", "🚙", "🚌", "🚎", "🏎", "🚓", "🚑", "🚒", "🛻", "🚚", "🚜"])
     var electronicsEmojiTheme = Theme(backgroundColor: .purple, emojiList: ["⌚️", "📱", "💻", "🖥", "🖨", "🖲", "🕹", "💾", "☎️", "📟", "📺", "🎙"])
     var flipCount = 0
+    var scoreCount = 0
 
 
     init(numberOfPearsOfCards: Int) {
@@ -36,9 +37,15 @@ class Concentration {
                 if cards[matchIndex].identifier == cards[index].identifier {
                     cards[matchIndex].isMatched = true
                     cards[index].isMatched = true
+                    scoreCount += 2
+                } else {
+                    if cards[index].seen == true {
+                        scoreCount -= 1
+                    }
                 }
                 cards[index].isFaceUp = true
                 indexOfOneAndOnlyFaceUpCard = nil
+                cards[index].seen = true
             } else {
                 // either no cards or 2 cards are face up
                 for flipDownIndex in cards.indices {
